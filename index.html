@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Portfolio | Biswash Karki</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Portfolio</a>
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-right">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Biswash Karki</span>
+                </h1>
+                <div class="hero-subtitle">
+                    I'm a <span class="typed-text"></span>
+                </div>
+                <p class="hero-description">
+                    Passionate creative professional with expertise in modern web technologies and design principles.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    <a href="assets/resume.pdf" download class="btn btn-secondary">
+                        <i class="fas fa-download"></i> Resume
+                    </a>
+                </div>
+            </div>
+            <div class="hero-3d" data-aos="fade-left">
+                <div id="threejs-container"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="image-wrapper">
+                        <img src="images/IMG_1452.JPG"  alt="Profile Image" class="profile-img">
+                        <div class="glow"></div>
+                    </div>
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <h3>Who am I?</h3>
+                    <p>
+                        I'm a creative developer with 5+ years of experience building modern web applications
+                        and digital experiences. I specialize in front-end development, UI/UX design, and
+                        interactive web technologies.
+                    </p>
+                    
+                    <div class="skills">
+                        <h4>My Skills</h4>
+                        <div class="skill-item">
+                            <span class="skill-name">HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">UI/UX Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline">
+                        <h4>Experience</h4>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2020 - Present</div>
+                            <div class="timeline-content">
+                                <h5>Senior Frontend Developer</h5>
+                                <p>XYZ Tech Company</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2017 - 2020</div>
+                            <div class="timeline-content">
+                                <h5>UI Developer</h5>
+                                <p>ABC Design Studio</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 - E-commerce Dashboard -->
+                <div class="project-card" data-aos="flip-left">
+                    <div class="project-card-inner">
+                        <div class="project-card-front">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="E-commerce Dashboard">
+                            <h3 class="project-title">E-commerce Analytics Dashboard</h3>
+                        </div>
+                        <div class="project-card-back">
+                            <h3>E-commerce Analytics Dashboard</h3>
+                            <p>A comprehensive dashboard for e-commerce businesses to track sales, inventory, and customer behavior with real-time data visualization.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Chart.js</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 - Travel App -->
+                <div class="project-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="project-card-inner">
+                        <div class="project-card-front">
+                            <img src="https://images.unsplash.com/photo-1508672019048-805c876b67e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Travel App">
+                            <h3 class="project-title">Wanderlust Travel Planner</h3>
+                        </div>
+                        <div class="project-card-back">
+                            <h3>Wanderlust Travel Planner</h3>
+                            <p>An interactive travel planning application that helps users discover destinations, create itineraries, and book accommodations.</p>
+                            <div class="project-tech">
+                                <span>Vue.js</span>
+                                <span>Firebase</span>
+                                <span>Google Maps API</span>
+                                <span>SCSS</span>
+                            </div>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 - Fitness Tracker -->
+                <div class="project-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="project-card-inner">
+                        <div class="project-card-front">
+                            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Fitness Tracker">
+                            <h3 class="project-title">FitTrack Pro</h3>
+                        </div>
+                        <div class="project-card-back">
+                            <h3>FitTrack Pro</h3>
+                            <p>A mobile-first fitness tracking application with workout logging, progress tracking, and nutrition planning features.</p>
+                            <div class="project-tech">
+                                <span>React Native</span>
+                                <span>Redux</span>
+                                <span>Firebase Auth</span>
+                                <span>HealthKit API</span>
+                            </div>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 - Recipe Finder -->
+                <div class="project-card" data-aos="flip-left" data-aos-delay="300">
+                    <div class="project-card-inner">
+                        <div class="project-card-front">
+                            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Recipe Finder">
+                            <h3 class="project-title">Chef's Companion</h3>
+                        </div>
+                        <div class="project-card-back">
+                            <h3>Chef's Companion</h3>
+                            <p>AI-powered recipe finder that suggests dishes based on available ingredients, dietary restrictions, and cooking preferences.</p>
+                            <div class="project-tech">
+                                <span>Next.js</span>
+                                <span>TensorFlow.js</span>
+                                <span>Edamam API</span>
+                                <span>Tailwind CSS</span>
+                            </div>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 5 - Task Manager -->
+                <div class="project-card" data-aos="flip-left" data-aos-delay="400">
+                    <div class="project-card-inner">
+                        <div class="project-card-front">
+                            <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Task Manager">
+                            <h3 class="project-title">TaskFlow Pro</h3>
+                        </div>
+                        <div class="project-card-back">
+                            <h3>TaskFlow Pro</h3>
+                            <p>Advanced task management system with Kanban boards, time tracking, and team collaboration features.</p>
+                            <div class="project-tech">
+                                <span>Angular</span>
+                                <span>NestJS</span>
+                                <span>PostgreSQL</span>
+                                <span>WebSockets</span>
+                            </div>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 6 - Weather App -->
+                <div class="project-card" data-aos="flip-left" data-aos-delay="500">
+                    <div class="project-card-inner">
+                        <div class="project-card-front">
+                            <img src="https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Weather App">
+                            <h3 class="project-title">WeatherSphere</h3>
+                        </div>
+                        <div class="project-card-back">
+                            <h3>WeatherSphere</h3>
+                            <p>Beautiful weather application with animated forecasts, severe weather alerts, and location-based recommendations.</p>
+                            <div class="project-tech">
+                                <span>Svelte</span>
+                                <span>D3.js</span>
+                                <span>OpenWeather API</span>
+                                <span>Geolocation API</span>
+                            </div>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Contact Information</h3>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>biswashk2000@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+977 1234567890</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Kathmandu, Nepal</span>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <form class="contact-form" data-aos="fade-left">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#">Portfolio</a>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-copyright">
+                    &copy; <span id="current-year"></span> Biswash Karki. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/aos.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/three.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
